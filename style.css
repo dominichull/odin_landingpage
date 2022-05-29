@@ -4,30 +4,6 @@
 
 }
 
-.full-page {
-    display:flex;
-    flex-direction: column;
-}
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-
-.main-title,
-.info-header {
-    font-weight: 800;
-
-}
-
-.info-header {
-    font-size: 36px;
-    color: #1F2937;
-
-}
-
-
 .right-links,
 .brag-subtext {
     font-size: 18px;
@@ -35,10 +11,34 @@
 
 }
 
+.main-title,
+.info-header {
+    font-weight: 800;
+
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB
 
+}
+
+.full-page {
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .right-links {
@@ -49,17 +49,34 @@ a {
     gap: 16px;
 }
 
-.header {
-    display: flex;
-    background-color: #1F2937;
-    justify-content: space-between;
-
-}
-
 .brag  {
     display: flex;
     background-color: #1F2937;
-    padding: 40px;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 85px;
+}
+
+.left-brag {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 1 0;
+
+}
+
+.brag-image {
+    display: flex;
+    height: 190px;
+    width: auto;
+    flex: 1 1 0;
+
+
+}
+
+.button {
+padding: 5px;
+width: fit-content;
 
 }
 
@@ -70,7 +87,20 @@ a {
 
 .info {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+
+}
+
+.info-cards {
+    display: flex;
+    flex-direction: row;
 }
 
 .quote {
