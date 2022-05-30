@@ -23,6 +23,12 @@ a {
 
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
 .full-page {
     display:flex;
     flex-direction: column;
@@ -32,7 +38,7 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 5px;
+    padding: 15px;
 
 }
 
@@ -52,7 +58,7 @@ a {
 .brag  {
     display: flex;
     background-color: #1F2937;
-    padding: 50px;
+    padding: 25px;
     justify-content: space-around;
     gap: 85px;
 }
@@ -67,9 +73,7 @@ a {
 
 .brag-image {
     display: flex;
-    height: 190px;
-    width: auto;
-    flex: 1 1 0;
+    flex: 1 2 0;
 
 
 }
@@ -77,6 +81,7 @@ a {
 .button {
 padding: 5px;
 width: fit-content;
+border-radius: 5px;
 
 }
 
@@ -95,17 +100,40 @@ width: fit-content;
 .info-header {
     font-size: 36px;
     color: #1F2937;
+    padding: 10px;
 
+}
+
+img.rounded-corners {
+    border-radius: 11px;
+}
+
+.info-image {
+    display: inline-flex;
+    border: solid blue;
+    border-radius: 15px;
+    justify-content: center;
+    
 }
 
 .info-cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    gap: 20px;
+    text-align: center;
 }
 
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    align-items: flex-end;
+    padding: 50px;
+    gap: 10px;
+    margin: 10px;
 
 }
 
@@ -116,13 +144,53 @@ width: fit-content;
 
 }
 
+.attribution {
+    font-weight: 800;
+
+}
+
 .action {
     display: flex;
+    color: antiquewhite;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 25px;
+    margin: 35px;
+
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.action-header {
+    font-size: 25px;
+    font-weight: 400;
+
+}
+
+.second-button {
+    display: flex;
+    border-color: beige;
+    border: 2px solid;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
 
 }
 
 .footer {
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #E5E7EB;
 
 }
